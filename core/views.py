@@ -33,5 +33,6 @@ class APIList(APIView):
             if j % plots_per_row == 0:
                 i += 1
                 j = 0
-        json_response = axs.toJSON()
+        lists = axs.tolist()
+        json_response = json.dumps(lists)
         return Response(json_response)
