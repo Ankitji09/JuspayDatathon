@@ -1,6 +1,7 @@
 django
 djangorestframework
 pandas
+matplotlib
 django-heroku
 django-cors-headers
 gunicorn
