@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 class APIList(APIView):
     """
